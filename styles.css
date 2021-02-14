@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  max-width: 2000px;
+  margin: 20px auto;
+  
+}
+.list-albums {
+  min-width: 350px;
+  border: 1px solid #4b4949;
+  padding: 0;
+}
+.list-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  min-width: 1400px;
+  border: 1px solid #4b4949;
+  background-color: #acdae7;
+}
+.list-album {
+  background: #e0dcdd;
+  border: 1px solid #cfc8c8;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.list-album:hover {
+  background:#acdae7;;
+}
